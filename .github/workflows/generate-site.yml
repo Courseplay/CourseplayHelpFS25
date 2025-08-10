@@ -1,0 +1,43 @@
+name: generate-markdown-files
+
+on:
+  push:
+     branches:
+       - main
+  workflow_dispatch:
+
+jobs:
+  generate-markdown:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Currently unused
+
+      # Step 4: Run the script
+      - name: Generate markdown files
+        run: python generate_markdown.py
+
+      # Step 5: Push changes back to the repository
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git commit -m "Update generated markdown files" || echo "No changes to commit"
+          git push origin main

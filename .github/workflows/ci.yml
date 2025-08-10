@@ -1,1 +1,55 @@
+name: ci
 
+on:
+  workflow_run:
+    workflows:
+      - generate-markdown-files
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.head_commit.message == 'Update generated markdown files'
+      )
+    steps:
+      # Step 1: Checkout the repository
+      - uses: actions/checkout@v4
+
+      # Step 2: Configure Git credentials
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+      # Step 3: Set up Python environment
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      # Step 4: Cache dependencies
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+
+      # Step 5: Install MkDocs and plugins
+      - name: Install MkDocs and Plugins
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-static-i18n
+
+      # Step 6: Build and deploy to GitHub Pages
+      - name: Build and deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
