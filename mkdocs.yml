@@ -1,0 +1,141 @@
+site_name: Courseplay
+site_url: https://courseplay.github.io/CourseplayHelpFS25
+
+theme:
+  name: material
+  custom_dir: overrides
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  logo: assets/icons/logo.png
+  favicon: assets/icons/favicon.ico
+  features:
+    - navigation.footer
+  palette:
+  
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: custom
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: custom
+
+       
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: "cs"
+          name: "Čeština"
+          build: true
+        - locale: "da"
+          name: "Dansk"
+          build: true
+        - locale: "de"
+          name: "Deutsch"
+          build: true
+        - locale: "en"
+          name: "English"
+          default: true
+          build: true
+        - locale: "es"
+          name: "Español"
+          build: true
+        - locale: "es-BR"
+          name: "Español Latinoamericano"
+          link : "/es-BR/"
+          build: false
+        - locale: "fi"
+          name: "Suomi"
+          build: true
+        - locale: "fr"
+          name: "Français"
+          build: true
+        - locale: "fr-CA"
+          name: "Français Canadien"
+          link : "/fr-CA/"
+          build: false
+        - locale: "hu"
+          name: "Magyar"
+          build: true
+        - locale: "id"
+          name: "Indonesia"
+          build: true
+        - locale: "it"
+          name: "Italiano"
+          build: true
+        - locale: "ja"
+          name: "日本語"
+          build: true
+        - locale: "ko"
+          name: "한국어"
+          build: true
+        - locale: "nl"
+          name: "Nederlands"
+          build: true
+        - locale: "nb"
+          name: "Norsk"
+          build: true
+        - locale: "pl"
+          name: "Polski"
+          build: true
+        - locale: "pt"
+          name: "Português"
+          build: true
+        - locale: "pt-BR"
+          name: "Português Brasileiro"
+          build: true
+        - locale: "ro"
+          name: "Română"
+          build: true
+        - locale: "ru"
+          name: "Русский"
+          build: true
+        - locale: "sv"
+          name: "Svenska"
+          build: true
+        - locale: "tr"
+          name: "Türkçe"
+          build: true
+        - locale: "uk"
+          name: "Українська"
+          build: true
+        - locale: "vi"
+          name: "Tiếng Việt"
+          build: true
+        - locale: "zh"
+          name: "简体中文"
+          build: true
+        - locale: "zh-TW"
+          name: "繁體中文"
+          build: true
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/Courseplay/Courseplay_FS25/releases
+    - icon: custom/modhub
+      link: https://www.farming-simulator.com/mods.php
+    - icon: custom/fs22
+      link: https://courseplay.github.io/Courseplay_FS22.github.io/
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2025 Courseplay Dev Team
