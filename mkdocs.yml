@@ -132,7 +132,7 @@ extra:
     - icon: simple/github
       link: https://github.com/Courseplay/Courseplay_FS25/releases
     - icon: custom/modhub
-      link: https://www.farming-simulator.com/mods.php
+      link: https://www.farming-simulator.com/mod.php?mod_id=331515&title=fs2025
     - icon: custom/fs22
       link: https://courseplay.github.io/Courseplay_FS22.github.io/
 extra_css:
