@@ -1,43 +1,10 @@
-# Wheelloader Driver
+# Hjullastare/Frontlastare
 
-  
-This mode enables wheel loader and tractors with a front loader.   
-With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished.  
-The picked up fill level can be unloaded automatically into a nearby trailer or a selected unloading station like a BGA.  
-The shovel will automatically be moved to the correct positions for loading, unloading and so on.  
-In case the mode is not directly visable on the hud, you can toggle the "start position" until the shovel mode appears.  
-  
-The target icon on the hud can be used to open the AI map to select the loading and the unloading targets.  
-The hud also shows the leftover fill level of the heap or silo, while the helper is working.  
-If the loading target is a bunker silo, then the work width might need to be adjusted to avoid hitting the side walls of the silo.  
-  
-The hight offset setting is used to adjust the hight above the ground, as not all shovel can calculated correctly.   
-This should be checked, if the shovel is to low for loading and the driver can't turn anymore or the shovel is to high and fill level is missed to the ground.  
-If the value gets changed, the shovel will automatically move to the loading position to show the impact of the offset.  
-To reset the offset you need to click on the settings text in the hud. The value can be adjusted from +1 to -1 in 0.1 setps.  
-  
-Shovels with a silage grab will open and close automatically for loading and unloading.  
-The shovel to shred sugar beets is completly functional as well.  
+Detta läge möjliggör användning av hjullastare och traktorer med frontlastare.  Med en påmonterad spade kan en hög plockas upp från marken eller lastas från en bunkersilo. Den upplockade fyllnadsnivån kan automatiskt lossas till en närliggande släpvagn eller en utvald lossningsstation, t.ex. en BGA. Spaden flyttas automatiskt till rätt position för lastning, lossning och så vidare. Om läget inte är direkt synligt på HUD:en kan du växla "startposition" tills spadläget visas.  Målikonen på HUD:en kan användas för att öppna AI-kartan och välja mål för lastning och lossning. HUD:en visar också den kvarvarande fyllnadsnivån i högen eller silon medan hjälparen arbetar. Om lastningsmålet är en bunkersilo kan arbetsbredden behöva justeras för att undvika att träffa silons sidoväggar.  Inställningen för höjdförskjutning används för att justera höjden över marken, eftersom inte alla skopor kan beräknas korrekt.  Detta bör kontrolleras om skopan är för låg för lastning och föraren inte kan svänga längre eller om skopan är för hög och fyllnadsnivån inte når ner till marken. Om värdet ändras kommer skopan automatiskt att flyttas till lastningspositionen för att visa effekten av förskjutningen. För att återställa förskjutningen måste du klicka på inställningstexten i HUD. Värdet kan justeras från +1 till -1 i 0,1 setps.  Skopor med ensilagegrip öppnas och stängs automatiskt för lastning och lossning. Skopan för att strimla sockerbetor är också helt funktionell.
 
+För att starta en hjullastarhelikopter måste du ställa in lastnings- och lossningspositionerna genom att klicka på målikonen på HUD. Laddningspositionen fungerar på samma sätt som den från lastarläget. En blå kvadrat kommer att skapas runt högen.  Avlastningspositionen beror på om du vill lossa i en trailer eller i en avlastningsstation. Om du väljer att lossa i släpet måste området där släpet ska parkeras väljas på AI-menyn. Hjälparen kommer att köra till alla parkerade släpvagnar i området. Markörens riktning har ingen egentlig betydelse. Om du vill lasta av på en lossningsstation måste du byta mål och sedan markera avtryckaren med lossningspositionen.
 
-  
-To start a wheel loader helper, you need to set the load and unload positions by clicking the target icon on the hud.  
-The loading position works the same like the one from the loader mode. A blue square will be created arround the heap.  
-  
-The unloading position depends if you want to unload into a trailer or into an unloading station.  
-If unloading into the trailer is selected, then the area where the trailer will be parked needs to be selected on the AI Menu.  
-The helper will drive to any parked trailer in the area. The direction of the marker has no real meaning.  
-If you want to unload into an unloading station, you need to switch the target and then mark the trigger with the unloading position.  
-
-
-  
-Selecting a trigger does look a bit complicated at first, but in reality it is really easy.  
-Every building can have more then one trigger so you have to choose the one you want to unload to.  
-All available triggers will be shown with an orange cross on the AI Map.  
-To select one place the middle of the round marker on the middle of the cross.  
-The driection of the arrow tells the helper from which direction he will approach the trigger for unloading.  
-Now your selection should look similar to the image.  
-
+Att välja en utlösare ser först lite komplicerat ut, men i själva verket är det väldigt enkelt. Varje byggnad kan ha mer än en utlösare, så du måste välja den du vill lossa till. Alla tillgängliga utlösare visas med ett orange kors på AI-kartan. För att välja en placerar du mitten av den runda markören på mitten av korset. Pilens riktning talar om för hjälparen från vilken riktning han ska närma sig utlösaren för lossning. Nu bör ditt val se ut som på bilden.
 
 ![Image](../assets/images/shovelloadertrigger_0_0_830_610.png)
 

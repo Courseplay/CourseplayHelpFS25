@@ -1,14 +1,6 @@
-# Silolastning
+# Lastning av silo
 
-  
-Med detta jobb är det möjligt att lasta från högar på eller nära fältet.  
-Dessutom är det möjligt att lasta från en plansilo.  
-Lastaren kan lossas med en Courseplay-avlastare.  
+Du kan använda detta jobb med en Ropa Maus eller liknande för att plocka upp högar på eller nära fältet och lasta av dem i en Courseplay-losshållare. Dessutom är det möjligt att lasta från en bunkersilo.  Om du låter Courseplay köra direkt till högen fälls den ut i en standardposition för att lasta högen. Om den här positionen inte passar i din miljö kan du stoppa föraren, ändra armens position som vanligt och starta föraren igen. Tänk på att den automatiska avlastningen med CP går i samma riktning som lastaren. Lämna lite utrymme så att lossaren kan köra förbi lastaren vid sidan om.
 
-
-  
-För att starta laddningsmarkören på AI-menyn måste ställas in.  
-Markören upptäcker högar eller silos och markerar dem på kartan.  
-Nu är det möjligt att starta hjälparen.  
-
+Till att börja med måste laddningsmarkören på AI-menyn ställas in. Markören upptäcker högar eller silos och markerar dem på kartan. Nu är det möjligt att starta hjälpen.
 

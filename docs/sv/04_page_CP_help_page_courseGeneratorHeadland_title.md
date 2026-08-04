@@ -1,20 +1,8 @@
-# Course generator headland
+# Kursgenerator: vändtegen
 
-  
-Headland -inställningar kommer bara att dyka upp, när du har ställt in minst 1 vid antalet Headlands.  
-Du får alternativ för var du ska börja, hörninställningar, riktning och överlappning.  
-Headlands föreslås starkt för att förhindra att verktyg lämnar fältet när du svänger.  
+Inställningar för vändtegar visas bara när du har ställt in minst en vändteg. Du får alternativ för var du ska börja, hörninställningar, riktning och överlappning. Vändtegar rekommenderas starkt för att förhindra att verktygen lämnar fältet när du svänger.
 
-
-  
-- Börja arbeta med: Som nämnts i den utökade AI -menyn används fältpositionen för att ställa in start- eller slutpositionen för fältarbetskursen.  
-När den är inställd på att starta på Headland berättar det var starten ska vara. När den ändras för att starta på rader kommer den att säga vart du ska avsluta arbetet.  
-- Headland Corners: Smooth kommer att ha en enkel utjämning över hörnen, detta fungerar för alla verktyg, men kommer att leda till små obearbetade fläckar i hörnen.  
-De kan reduceras med överlappning, men försvinner aldrig. Sharp kommer att generera en sväng baserad på fältets kantvinkel.  
-Rund kommer att ta hänsyn till de nuvarande valda fordonen förvandla radie för att ha det bästa runda hörnet för det verktyget.  
-- Riktning av rubriker: medurs eller moturs. Detta kan vara viktigt för kombinerade och skördare, beroende på vad röret eller transportbandet är.  
-- Huvudlandsöverlappning: Hur mycket % överlappar alla Headlands bör ha. Den första kommer inte att ha någon överlappning med fältgränsen, men de inre kommer att överlappa med sin granne.  
-
+- Skärpa hörnen på uddarna: Skärpa hörnen på de vändtegar som inte är rundade. Kommer att tvinga fordonet att svänga på vändtegen när vändtegens krökning är mindre än fordonets svängradie. - Antal runda hörn: Antal vändtegar, räknat från den yttersta, som kommer att ha rundade hörn. Rundade hörn baseras på fordonets svängradie, så för dessa vändtegar kommer fordonet inte att utföra någon svängmanöver i hörnen. - Radie för hörn: Ställer in radien för de runda hörnen. Om du vet att ett efterföljande arbetsverktyg har en minsta radie på 10, kan du ställa in detta värde till 10 för banan. - Vändtegsriktning: medurs eller moturs. Detta kan vara viktigt för skördetröskor och skördare, beroende på vilken sida röret eller transportbandet är på. - Överlappning på vändtegen: Hur mycket ett vändteg överlappar med nästa. Detta för att undvika att missa frukt i vissa fall.
 
 ![Image](../assets/images/sharproundcorner_0_0_330_130.png)
 

@@ -1,72 +1,38 @@
 # Mini HUD
 
-## General
+## Allmänna funktioner
 
 ![Image](../assets/images/minihudhelp_general_0_0_478_305.png)
 
-  
-A: Hold the left mouse button on the headline to drag the HUD to a position you like. On the right side, the installed version is shown and the X will close the HUD with a mouse click.  
-B: Click on the Courseplay icon to access the global settings.  
-C: At this position the name of your vehicle is displayed. Clicking on it will get you to the vehicle settings menu.  
-D: These symbols are to: (1) delete the currently loaded course, (2a) toggle how the course will be displayed, (2b) if no course is loaded, a record button is shown to record a field border course, (3) to start or stop the helper.  
-E: This target icon has different options depending on the selected mode, it opens the AI Menu with the job and be able to place marker and additional settings for the job. On the left side of the icon, with a fieldwork running, the remaining time of the course is shown.  
-F: Click on the text to toggle the available modes for your current tools.  
-G: The settings shown under this line depend on the current job. These will be explained with the following pictures.  
+A: Håll vänster musknapp på rubriken för att dra HUD till en position som du vill ha. På höger sida visas den installerade versionen och X:et stänger HUD:en med ett musklick. B: Klicka på ikonen Courseplay för att komma åt de globala inställningarna. C: På denna position visas namnet på ditt fordon. Om du klickar på det kommer du till menyn för fordonsinställningar. D: Dessa symboler är till för att: (1) radera den aktuella banan, (2a) växla hur banan ska visas, (2b) om ingen bana är laddad visas en inspelningsknapp för att spela in en fältgränsbana, (3) starta eller stoppa hjälpen. E: Den här målikonen har olika alternativ beroende på valt läge, den öppnar AI-menyn med jobbet och gör det möjligt att placera markören och göra ytterligare inställningar för jobbet. På vänster sida av ikonen, när ett fältarbete pågår, visas den återstående tiden för kursen. F: Klicka på texten för att växla mellan de tillgängliga lägena för dina aktuella verktyg. G: De inställningar som visas under denna rad beror på det aktuella jobbet. Dessa förklaras med hjälp av följande bilder.
 
-
-## Fieldwork
+## Fältarbete
 
 ![Image](../assets/images/minihudhelp_fieldwork_0_0_478_305.png)
 
-  
-A: Click to select where to the start the work. If a multitool course is loaded, on the right side you can select the lane.  
-B: Displays the name of the loaded course. If you just generated a course, it shows 'temporary course'. On the right side you'll see the current/total waypoints once the job is started.  
-C: Clicking on the text will recalculate the working width, or you can set it manually on the right by clicking +/-, or with the mouse wheel over the number.  
-D: Some tools need an offset to the side. Courseplay will calculate it automatically when clicking on the text, or you can change it manually just like the working width.  
-E: Use the symbol on the right side to copy the current course to the clipboard. The name of the copied course is then shown on the left. You can load the copied course into another vehicle which has no course yet. To remove the course from the clipboard, click on the remove symbol.  
+S: Klicka för att välja var arbetet ska påbörjas. Om en multiverktygsbana är laddad kan du välja bana på höger sida. B: Visar namnet på den laddade banan. Om du just har genererat en bana visas "tillfällig bana". På höger sida visas de aktuella/totala waypointsen när jobbet har startat. C: Om du klickar på texten beräknas arbetsbredden på nytt, eller så kan du ställa in den manuellt till höger genom att klicka på +/- eller med mushjulet över siffran. D: Vissa verktyg behöver en förskjutning åt sidan. Courseplay beräknar den automatiskt när du klickar på texten, eller så kan du ändra den manuellt precis som arbetsbredden. E: Använd symbolen på höger sida för att kopiera den aktuella kursen till urklipp. Namnet på den kopierade kursen visas sedan till vänster. Du kan lägga in den kopierade kursen i ett annat fordon som ännu inte har någon kurs. För att ta bort kursen från urklipp, klicka på symbolen för borttagning.
 
-
-## Combine unloader
+## Skördetröska avlastare
 
 ![Image](../assets/images/minihudhelp_combineunload_0_0_478_305.png)
 
-  
-A: Select what type of vehicle should the worker unload. This is useful if you have different types, like a combine and a loader such as the ROPA Maus working on the same field.  
-B: Set the fill level (40% - 100%) the worker should drive to the unload site. Click the +/- or use the scroll wheel over the number to change.  
-C: Sometimes the position of the unloader under the pipe is less than perfect. This may be due to the trailer or the pipe of the harvester, sometimes caused by the slope of the field. You can manually correct the distance to the harvester here.  
-D: Same as above, but here you can adjust the position of the unloader relative to the pipe to the front or to the rear.  
-E: Similar to copying a course, here you can copy the marker positions to another vehicle.  
+A: Välj vilken typ av fordon som medarbetaren ska lossa. Detta är användbart om du har olika typer, t.ex. en skördetröska och en lastare som ROPA Maus, som arbetar på samma fält. B: Ställ in fyllnadsgraden (40 % - 100 %) som arbetaren ska köra till lossningsplatsen. Klicka på +/- eller använd skrollhjulet över siffran för att ändra. C: Ibland är avlastarens position under röret inte perfekt. Detta kan bero på släpet eller skördarens rör, ibland orsakat av fältets lutning. Du kan korrigera avståndet till skördaren manuellt här. D: Samma sak som ovan, men här kan du justera lossarens position i förhållande till röret framtill eller baktill. E: På samma sätt som vid kopiering av en bana kan du här kopiera markörpositionerna till ett annat fordon.
 
-
-## Bale collect/wrap
+## Balar samlas in/omlindas
 
 ![Image](../assets/images/minihudhelp_balecollect_0_0_478_305.png)
 
-  
-A: Remaining bales on the field.  
-B: Type of the bales to collect/wrap.  
-C: Offset between the tractor's centerline and the loader arm's centerline. You may need to adjust this for bigger tractors (e.g. with wider tires).  
+A: Kvarvarande balar på fältet. B: Typ av balar som ska samlas in/plastas. C: Förskjutning mellan traktorns mittlinje och lastararmens mittlinje. Du kan behöva justera detta för större traktorer (t.ex. med bredare däck).
 
-
-## Silo loader
+## Silolastare
 
 ![Image](../assets/images/minihudhelp_siloloader_0_0_478_305.png)
 
-  
-A: Remaining size of the heap in liters.  
-B: Working width, same as with fieldwork job.  
-C: Courseplay needs the exact height of the bucket above ground set correctly. Since this height can be different for each tool, you can check and adjust it with this setting.  
-D: Just like with the unloader, you can copy the marker positions to another vehicle.  
+A: Kvarvarande storlek på högen i liter. B: Arbetsbredd, samma som vid fältarbete. C: Courseplay kräver att skopans exakta höjd över marken är korrekt inställd. Eftersom denna höjd kan vara olika för varje verktyg kan du kontrollera och justera den med denna inställning. D: Precis som med avlastaren kan du kopiera markörpositionerna till ett annat fordon.
 
-
-## Silo worker
+## Siloarbetare
 
 ![Image](../assets/images/minihudhelp_siloworker_0_0_478_305.png)
 
-  
-A: Similar to the silo loader, the height of the leveler is critical. You can adjust it here.  
-B: Shows the progress of the compacting. Clicking on it, toggles the option to stop the driver when reached full compacting.  
-C: You can change the working width when needed here.  
-D: This setting tells the worker to wait in the silo or at a selected parking position when an unloader approaches the silo.  
-
+A: På samma sätt som för silolastaren är höjden på nivåvippan avgörande. Du kan justera den här. B: Visar hur komprimeringen fortskrider. Om du klickar på den växlar du mellan alternativet att stoppa föraren när komprimeringen är klar. Om du klickar på den kan du välja att stoppa föraren när komprimeringen är klar. C: Här kan du ändra arbetsbredden vid behov. D: Denna inställning anger att arbetaren ska vänta i silon eller på en vald parkeringsplats när en avlastare närmar sig silon.
 

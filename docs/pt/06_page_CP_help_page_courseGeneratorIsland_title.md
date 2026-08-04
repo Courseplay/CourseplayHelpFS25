@@ -1,15 +1,15 @@
-# Course generator island
+# Gerador de rotas: ilhas
 
   
-Driving arround the island is now only possible with a complete round arround it.  
-Even in the new generator, limits for island too close to the field border.  
-The work width of the tool is decisive if the island is too close or not.  
-Like how many headlands do fit between the island and the field border.  
+Contornar a ilha agora só é possível com uma volta completa à sua volta.  
+Mesmo no novo gerador, há limites para ilhas demasiado perto do limite do campo.  
+A largura de trabalho da alfaia é decisiva para determinar se a ilha está demasiado perto ou não,  
+como por exemplo quantas cabeceiras cabem entre a ilha e o limite do campo.  
 
 
   
-- Island bypass: Turns on or off the bypass of the island, if an island is found. This does not work for custom fields!  
-- Island headlands: The amount of rounds arround the island can now be set indipendantly from the headland setting.  
-- Island headland direction: In which direction the driver drives arround the island, to not have strange direction changes. This can be tricky to set up as it depends on the field and the rest of the course.  
+- Contornar ilhas: Liga ou desliga o contorno da ilha, se uma ilha for encontrada. Isto não funciona em campos personalizados!  
+- Cabeceiras das ilhas: O número de voltas à volta da ilha pode agora ser definido de forma independente da configuração das cabeceiras.  
+- Direcção na cabeceira das ilhas: Em que direcção o condutor contorna a ilha, para não haver mudanças de direcção estranhas. Isto pode ser complicado de configurar, pois depende do campo e do resto da rota.  
 
 

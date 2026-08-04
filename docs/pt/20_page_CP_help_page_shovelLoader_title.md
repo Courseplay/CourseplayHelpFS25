@@ -1,42 +1,42 @@
-# Wheelloader Driver
+# Condutor de pá carregadora
 
   
-This mode enables wheel loader and tractors with a front loader.   
-With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished.  
-The picked up fill level can be unloaded automatically into a nearby trailer or a selected unloading station like a BGA.  
-The shovel will automatically be moved to the correct positions for loading, unloading and so on.  
-In case the mode is not directly visable on the hud, you can toggle the "start position" until the shovel mode appears.  
+Este modo permite usar pás carregadoras e tractores com carregador frontal.  
+Com uma pá atrelada, é possível apanhar um monte do chão ou carregar dum silo de trincheira.  
+A carga apanhada pode ser descarregada automaticamente num reboque próximo ou numa estação de descarga selecionada, como uma central de biogás.  
+A pá move-se automaticamente para as posições correctas para carregar, descarregar e assim por diante.  
+Caso o modo não esteja directamente visível no ecrã secundário, podes alternar a "posição de partida" até o modo de pá aparecer.  
   
-The target icon on the hud can be used to open the AI map to select the loading and the unloading targets.  
-The hud also shows the leftover fill level of the heap or silo, while the helper is working.  
-If the loading target is a bunker silo, then the work width might need to be adjusted to avoid hitting the side walls of the silo.  
+O ícone de alvo no ecrã secundário pode ser usado para abrir o mapa de IA e selecionar os destinos de carga e descarga.  
+O ecrã secundário também mostra o nível restante do monte ou do silo, enquanto o trabalhador está a trabalhar.  
+Se o destino de carga for um silo de trincheira, pode ser preciso ajustar a largura de trabalho para evitar bater nas paredes laterais do silo.  
   
-The hight offset setting is used to adjust the hight above the ground, as not all shovel can calculated correctly.   
-This should be checked, if the shovel is to low for loading and the driver can't turn anymore or the shovel is to high and fill level is missed to the ground.  
-If the value gets changed, the shovel will automatically move to the loading position to show the impact of the offset.  
-To reset the offset you need to click on the settings text in the hud. The value can be adjusted from +1 to -1 in 0.1 setps.  
+A configuração de ajuste de altura serve para corrigir a altura acima do solo, pois nem todas as pás a conseguem calcular correctamente.  
+Isto deve ser verificado se a pá estiver demasiado baixa para carregar e o condutor já não conseguir virar, ou se a pá estiver demasiado alta e a carga ficar no chão.  
+Se o valor for alterado, a pá move-se automaticamente para a posição de carregamento para mostrar o efeito do ajuste.  
+Para repor o ajuste, precisas de clicar no texto da configuração no ecrã secundário. O valor pode ser ajustado de +1 a -1 em passos de 0,1.  
   
-Shovels with a silage grab will open and close automatically for loading and unloading.  
-The shovel to shred sugar beets is completly functional as well.  
-
-
-  
-To start a wheel loader helper, you need to set the load and unload positions by clicking the target icon on the hud.  
-The loading position works the same like the one from the loader mode. A blue square will be created arround the heap.  
-  
-The unloading position depends if you want to unload into a trailer or into an unloading station.  
-If unloading into the trailer is selected, then the area where the trailer will be parked needs to be selected on the AI Menu.  
-The helper will drive to any parked trailer in the area. The direction of the marker has no real meaning.  
-If you want to unload into an unloading station, you need to switch the target and then mark the trigger with the unloading position.  
+Pás com garra de silagem abrem e fecham automaticamente para carregar e descarregar.  
+A pá para triturar beterraba sacarina também é completamente funcional.  
 
 
   
-Selecting a trigger does look a bit complicated at first, but in reality it is really easy.  
-Every building can have more then one trigger so you have to choose the one you want to unload to.  
-All available triggers will be shown with an orange cross on the AI Map.  
-To select one place the middle of the round marker on the middle of the cross.  
-The driection of the arrow tells the helper from which direction he will approach the trigger for unloading.  
-Now your selection should look similar to the image.  
+Para iniciar um trabalhador de pá carregadora, precisas de definir as posições de carga e descarga clicando no ícone de alvo no ecrã secundário.  
+A posição de carga funciona da mesma forma que a do modo de carregador. Um quadrado azul é criado à volta do monte.  
+  
+A posição de descarga depende de quereres descarregar num reboque ou numa estação de descarga.  
+Se descarregar no reboque estiver selecionado, a área onde o reboque estará estacionado precisa de ser selecionada no menu de IA.  
+O trabalhador conduz até qualquer reboque estacionado na área. A direcção do marcador não tem significado real.  
+Se quiseres descarregar numa estação de descarga, precisas de mudar o destino e depois marcar o ponto de descarga com a posição de descarga.  
+
+
+  
+Selecionar um ponto de descarga pode parecer um pouco complicado ao início, mas na realidade é muito fácil.  
+Cada edifício pode ter mais do que um ponto de descarga, por isso tens de escolher aquele onde queres descarregar.  
+Todos os pontos de descarga disponíveis são mostrados com uma cruz laranja no mapa de IA.  
+Para selecionar um, coloca o meio do marcador redondo no meio da cruz.  
+A direcção da seta diz ao trabalhador de que direcção ele se vai aproximar do ponto para descarregar.  
+Agora a tua seleção deve parecer-se com a imagem.  
 
 
 ![Image](../assets/images/shovelloadertrigger_0_0_830_610.png)

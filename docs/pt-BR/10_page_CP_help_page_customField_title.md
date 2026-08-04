@@ -1,10 +1,11 @@
 # Campo Customizado
 
   
-Há duas formas de criar um campo customizado.  
-A primeira é usar a função de gravar do HUD.  
-Inicie a gravação na borda do campo.  
-Uma vez feito, pressione o botão novamente e você será perguntado se deseja salvá-lo.  
+Existem duas maneiras de criar campos personalizados.  
+A primeira é usar a função de gravação do HUD.  
+Primeiro, pressione o botão de gravação do percurso e, em seguida, desenhe a borda do campo que deseja gravar.  
+Ao terminar, basta pressionar o botão novamente e será perguntado se você deseja salvar.  
+O início e o fim não devem se sobrepor!  
 
 
 ![Image](../assets/images/recordcustomhelp_0_0_765_510.png)
@@ -15,14 +16,14 @@ Ao clicar no nome, você terá a opção de excluí-lo ou renomeá-lo.
 
 
   
-The second option is to draw the custom field on the map of the CP AI menu.  
-To start the drawing, hit they button on the bottom left corner or hit corresponding key.  
-After that a text appears on the top of your screen.  
-Start by clicking the right mouse button for setting the start position.  
-By holding the shift key, the line will be set straight in 90° angles.  
-The next clicks will create lines to the previous click.  
-Once you draw a second line, the course will be automatically closed. You can still draw more lines to define the field even further.  
-You don't need to draw the last line to the start, as it gets generated automatically straight to the start.  
+A segunda opção é desenhar o campo personalizado no mapa do menu do CP AI.  
+Para iniciar o desenho, clique no botão no canto inferior esquerdo ou na tecla correspondente.  
+Em seguida, um texto aparecerá na parte superior da tela.  
+Comece clicando com o botão direito do mouse para definir a posição inicial.  
+Mantendo a tecla Shift pressionada, a linha será definida em ângulos de 90°.  
+Os próximos cliques criarão linhas para o clique anterior.  
+Após desenhar uma segunda linha, o percurso será fechado automaticamente. Você ainda pode desenhar mais linhas para definir ainda mais o campo.  
+Você não precisa desenhar a última linha até o início, pois ela é gerada automaticamente, diretamente para o início.  
 
 
 ![Image](../assets/images/customfield_0_0_765_510.png)

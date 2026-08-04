@@ -15,14 +15,14 @@ Cliquez sur son nom pour le supprimer ou le renommer.
 
 
   
-The second option is to draw the custom field on the map of the CP AI menu.  
-To start the drawing, hit they button on the bottom left corner or hit corresponding key.  
-After that a text appears on the top of your screen.  
-Start by clicking the right mouse button for setting the start position.  
-By holding the shift key, the line will be set straight in 90° angles.  
-The next clicks will create lines to the previous click.  
-Once you draw a second line, the course will be automatically closed. You can still draw more lines to define the field even further.  
-You don't need to draw the last line to the start, as it gets generated automatically straight to the start.  
+La deuxième option consiste à dessiner le champ personnalisé sur la carte du menu IA CP.  
+Pour commencer le dessin, appuyez sur le bouton dans le coin inférieur gauche ou appuyez sur la touche correspondante.  
+Après cela, un texte apparaît en haut de votre écran.  
+Commencez par cliquer sur le bouton droit de la souris pour définir la position de départ.  
+En maintenant la touche Maj enfoncée, la ligne sera tracée droite selon des angles de 90°.  
+Les clics suivants créeront des lignes vers le clic précédent.  
+Une fois que vous avez tracé une deuxième ligne, le parcours sera automatiquement fermé. Vous pouvez toujours tracer d'autres lignes pour définir le champ encore plus précisément.  
+Vous n'avez pas besoin de tracer la dernière ligne jusqu'au départ, car elle est générée automatiquement en ligne droite jusqu'au point de départ.  
 
 
 ![Image](../assets/images/customfield_0_0_765_510.png)

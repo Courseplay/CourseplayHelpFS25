@@ -1,28 +1,10 @@
-# Bale plastning och insamling
+# Förpackning och uppsamling av balar
 
-  
-Plastning och uppsamlingsbalar kan göras på två olika sätt.  
-Den första är att ladda samma kurs som du använde för din balpress och låt plastaren eller samlaren köra den kursen.  
-Men det här kan vara knepigt, eftersom vissa balor älskar att rulla eller flyga av vägen.  
-Vid denna tidpunkt kan vår wrap och samla jobbtyp hjälpa till som det inte behöver en kurs.  
-Håll dig på fältet och starta bara föraren från HUD med Wrap / Collect Bales eller använd AI-kartan för att skicka honom till ett fält för att starta jobbet.  
+Inplastning och uppsamling av balar kan göras på två olika sätt. Det första är att ladda samma bana som du använde för din balpress och låta inplastaren eller uppsamlaren köra den banan. Detta kan dock vara knepigt, eftersom vissa balar älskar att rulla eller flyga utanför banan. I det här läget kan vår jobbtyp för inplastning och uppsamling vara till hjälp eftersom den inte behöver någon bana. Med målikonen på HUD:en måste du välja det fält där du vill samla in eller linda in balarna. Efter det kan du starta föraren nära fältet. Du kan också använda AI Map för att skicka honom till ett fält för att påbörja jobbet. Räknaren på HUD:en visar hur många balar som finns kvar på fältet sedan den senaste skanningen. CP kommer endast att skanna fältet efter balar när det verkligen måste av prestandaskäl.
 
+Inplastning av balar är mycket enkelt. Ladda en bana på din balpress och starta som vilket annat fältarbete som helst, eller utan en bana, starta det med balinplastning / insamling från HUD eller AI-menyn.
 
-  
-Plastning av balar är mycket enkelt. Ladda en kurs på din balpress och börja som alla andra fältarbete, eller utan en kurs,  
-Starta det med Balplastning / Samla från HUD eller AI-menyn.  
+När en bana används kör hjälparen med en förinställd förskjutning så att inplastarens pickup befinner sig mitt på banan. Utan en bana skannar Courseplay fältet efter oinplastade balar och använder sökaren för att hitta en väg till den närmaste balen som är bäst att plasta in. Automatisk backning om en bal befinner sig framför fordonet eller om vi är för nära fältgränsen bör förhindra olyckor.
 
-
-  
-När du använder en kurs kör hjälpen med en förinställd offset så att plastarens pickup är mitt i kursen.  
-Utan en kurs skannar kurspelet fältet för oöppnade balar och använder Pathfinder för att hitta ett sätt att  
-Den bästa närmaste balen att sätta ihop.  
-Automatisk säkerhetskopiering om en bale är framför fordonet eller om vi är för nära fältgränsen bör gränsen förhindra olyckor.  
-
-
-  
-Att samla balor fungerar ganska, med eller utan en kurs.  
-När kollektorn är full, kommer det att stoppa arbetet och berättar användaren som behöver lossas. Om du har autodrive  
-Installerad Du kan använda den för att köra en ladda Bale Collector automatiskt.  
-
+Att samla in balar fungerar ungefär likadant, med eller utan en bana. När uppsamlaren är full stoppar den arbetet och talar om för användaren att den måste tömmas. Om du har AutoDrive installerat kan du använda det för att köra och lossa baluppsamlaren automatiskt.
 

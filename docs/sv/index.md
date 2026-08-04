@@ -1,22 +1,4 @@
-# General Information
+# Allmän information
 
-  
-Courseplay gör att du kan generera fältkurser med ytterligare funktioner, till exempel: Headlands.  
-Det möjliggör också användningen av balsor och foragewagons, som kan skickas på samma kurs, som en gräsklippare eller skördare från tidigare.  
-En annan stor funktion är samlingen eller omslaget av balar på fältet.  
-Ny med denna iteration av CP är vinstocken.  
-Fieldwork kurser kan konfigureras i multitool-läge, vilket möjliggör användning av upp till 5 förare som arbetar i en konvoj på samma fält.  
-Det är också möjligt att ha kombinationen avlast i en släpvagn på / nära fältet automatiskt.  
-Anpassade fältbekräftare kan tilldelas för kursplay att använda, till exempel: Om en äng, som inte är känd som ett normalt fält.  
-Slutligen har CP ett gränssnitt för AutoDrive, vilket möjliggör påfyllning av en sårare i en närliggande silo eller lossning av en föragonagon och så vidare.  
-  
-För mer information besök vår GitHub: https://github.com/courseplay/courseplay_fs22.  
-Där kan du få hjälp eller rapportera något problem du har upplevt.  
-Slutligen tackar vi varje översättare och vårt samhälle för att rapportera buggar, vilket ger feedback och nya idéer.  
-  
-Vad är expertläget:  
-När expertläget är avaktiverat har du bara tillgång till vissa inställningar.  
-De andra inställningarna är dolda och inställda till standardvärden, som fungerar i de flesta situationer.  
-På det sättet försöker vi hjälpa användarna att bli lättare i kursplay utan att bli överväldigad från alla inställningar.  
-
+Med Courseplay kan du generera fältbanor med ytterligare funktioner, t.ex. vändtegar. Det gör det också möjligt att använda balpressar och fodervagnar, som kan skickas på samma bana som en slåttermaskin eller skördetröska sedan tidigare. En annan viktig funktion är uppsamling eller inplastning av balar på fältet. Courseplay kan också arbeta med risfält och vinrankor. Fältarbetskurser kan ställas in i multiverktygsläge, vilket gör det möjligt att använda upp till 5 förare som arbetar i en konvoj på samma fält. Det är också möjligt att låta skördetröskan automatiskt lasta av i en släpvagn på/vid fältet. Anpassade fältgränser kan tilldelas för att Courseplay ska kunna använda dem, t.ex. för en äng som inte känns igen som ett normalt fält. Slutligen har CP ett gränssnitt för AutoDrive, som gör det möjligt att fylla på en såmaskin vid en närliggande silo eller lossa en fodervagn och så vidare. Skördetröskans avlastare kan skapa en hög nära fältet med sin lastade frukt. I Farming Simulator 25 har Courseplay en egen meny, som du kan komma åt via olika knappar på HUD.  För mer information, besök vår GitHub: https://github.com/Courseplay/Courseplay_FS25 . Där kan du få hjälp eller rapportera eventuella problem du har upplevt. Slutligen tackar vi alla översättare och vår community för att ni rapporterar buggar, ger feedback och nya idéer.  Vad är expertläget? När expertläget är avaktiverat har du bara tillgång till vissa inställningar. De andra inställningarna är dolda och inställda på standardvärden, som fungerar i de flesta situationer. På så sätt försöker vi göra det lättare för nya Courseplay-användare att komma igång utan att överväldiga dem med de olika inställningarna.
 

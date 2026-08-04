@@ -10,25 +10,30 @@ Ao clicar nele, você pode pular diretamente para o veículo.
 
 
   
-As Informações são as seguintes:  
-- Ajudante está preso  
+As mensagens de status são:  
+- Motorista preso  
 - Bloqueado por um objeto  
 - Deve ser reabastecido  
 - Precisa ser reabastecido  
 - Precisa ser reparado  
-- Precisa ser reabastecido  
+- Precisa ser recarregado  
 - Precisa ser descarregado  
-- Trabalho feito  
-- Condução para colheitdeira  
+- Trabalho concluído  
+- Dirigindo para a colheitadeira  
 - Dirigindo para o trailer  
 - Sem dinheiro  
-- Esperando a chuva passar  
-- Esperando no descarregador  
-- Saiu da rota, parou  
-- Tipo de fardo errado  
+- Aguardando a chuva passar  
+- Aguardando a neve desaparecer  
+- Aguardando o descarregador  
+- Saiu do percurso, parou  
+- Tipo de fardo incorreto  
 - Nenhum caminho encontrado  
-- Não é possível tombar no chão  
+- Não é possível tombar para o solo  
 - Cortador não suportado  
-- Fixação do cortador desativada  
+- Engate do cortador desativado  
+- Estação de frutas incorreta  
+- Fruta incorreta selecionada para a missão  
+- Paletes cheios  
+- Sem paletes  
 
 

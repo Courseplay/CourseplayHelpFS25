@@ -1,15 +1,14 @@
-# Colheitadeira descarrega
+# Descarregador da colheitadeira
 
   
-O modo de descarregar do Courseplay funciona com praticamente todas as colheitadeiras e as com reboques.  
-Não funciona com choppers.  
-Você pode usar uma carreta comum ou uma bazuca (aquela com cano) para descarregar uma colheitadeira.  
-Para descarregar uma carreta, você pode usar o Giants Helper ou o AutoDrive.  
-Iniciar o descarregador requer algumas coisas:  
-- Você precisa ter uma única carreta ou bazuca. várias carretas não são suportadas.  
-- Use o ícone de alvo no HUD para selecionar o campo que está sendo colhido. A carreta descarregará todos as colheitadeiras nquele campo.  
-- Você deve estar no campo ou a 20 metros do campo para iniciar a carreta.  
-  
+O modo descarregador do Courseplay funciona com colheitadeiras, colheitadeiras, picadores e colheitadeiras rebocadas conduzidas pelo Courseplay.  
+Você pode usar um reboque comum ou um vagão helicoidal para descarregar uma colheitadeira.  
+Para esvaziar os reboques, você pode usar o Auxiliar de Gigantes ou o AutoDrive.  
+Iniciar o descarregador requer alguns itens:  
+- Você precisa ter um único reboque ou vagão helicoidal acoplado. Múltiplos reboques não são suportados.  
+- Use o Ícone de Alvo no HUD para selecionar o talhão a ser colhido. O descarregador descarregará todas as colheitadeiras conduzidas pelo Courseplay que estiverem trabalhando naquele talhão.  
+- Você deve estar no talhão ou a menos de 20 metros dele para iniciar o descarregador.  
+        
 As carretas têm algumas configurações que você pode ajustar:  
 - Você pode definir o nível de enchimento no qual a carreta se considerará cheio.   
 evitar esperar a chamada de uma colheitadeira com a carreta quase cheia.  
@@ -43,11 +42,12 @@ Se não houver carreta disponível, ela continuará a descarregar a colheitadeir
 ## Decarregar no campo
 
   
-A posição de descarrgar pode ser selecionada com o marcador de descarregar.  
-A posição precisa estar no mesmo campo ou perto da borda do campo.  
-Se o marcador apontar para um monte já existente,  
-então este monte é usado para descarregar.  
-A direção do marcador é usada para a direção de descarregar.  
-Além disso, para carretas, um lado de tombamento precisa ser selecionado.  
+A posição de descarga pode ser selecionada com o marcador de descarga.  
+A descarga no campo deve estar ativada.  
+A posição precisa estar no mesmo campo ou próxima à borda do campo.  
+Se o marcador apontar para uma pilha já existente,  
+então essa pilha será usada para descarregar.  
+A direção do marcador é usada para a direção de descarga.  
+Em alguns reboques, o lado da ponta pode ser alternado entre a traseira e a porta de grãos.  
 
 

@@ -1,4 +1,4 @@
-# Course generator headland
+# Gerador de rotas: cabeceiras
 
   
 As configurações de cabeceira só serão exibidas quando você definir pelo menos 1 em Número de cabeceiras.  

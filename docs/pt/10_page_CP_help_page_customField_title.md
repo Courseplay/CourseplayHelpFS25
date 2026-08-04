@@ -15,14 +15,14 @@ Ao clicar no nome, você terá a opção de excluí-lo ou renomeá-lo.
 
 
   
-The second option is to draw the custom field on the map of the CP AI menu.  
-To start the drawing, hit they button on the bottom left corner or hit corresponding key.  
-After that a text appears on the top of your screen.  
-Start by clicking the right mouse button for setting the start position.  
-By holding the shift key, the line will be set straight in 90° angles.  
-The next clicks will create lines to the previous click.  
-Once you draw a second line, the course will be automatically closed. You can still draw more lines to define the field even further.  
-You don't need to draw the last line to the start, as it gets generated automatically straight to the start.  
+A segunda opção é desenhar o campo personalizado no mapa do menu de IA do CP.  
+Para começar a desenhar, clica no botão no canto inferior esquerdo ou prime a tecla correspondente.  
+Depois disso, aparece um texto no topo do ecrã.  
+Começa por clicar com o botão direito do rato para definir a posição de partida.  
+Mantendo a tecla shift premida, a linha é traçada recta em ângulos de 90°.  
+Os cliques seguintes criam linhas até ao clique anterior.  
+Assim que desenhares uma segunda linha, o contorno é fechado automaticamente. Ainda podes desenhar mais linhas para definir melhor o campo.  
+Não precisas de desenhar a última linha até ao início, pois ela é gerada automaticamente em linha recta até ao início.  
 
 
 ![Image](../assets/images/customfield_0_0_765_510.png)

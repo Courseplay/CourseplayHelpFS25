@@ -1,53 +1,16 @@
-# Skördare avlastare
+# Skördetröska lossare
 
-  
-Avlastningsläget för Courseplay fungerar med skördetröskor, skördare och bogserade skördare som drivs av Courseplay.  
-Det fungerar inte med choppers.  
-Du kan antingen använda en vanlig släpvagn eller en skruvvagn för att lossa en skördetröska.  
-För att tömma trailers kan du använda Giants Helper eller AutoDrive.  
-Att starta avlastaren kräver några saker:  
-– Du behöver ha en enkel släpvagn eller skruvvagn kopplad. Flera trailers stöds inte.  
-- Använd målikonen på HUD för att välja fältet som ska skördas. Avlastaren kommer att lossa alla Courseplay-drivna skördare som arbetar på det fältet.  
-– Du måste vara på fältet eller inom 20 meter från fältet för att starta avlastaren.  
-  
-Avlastare har bara ett fåtal inställningar som du kan justera:  
-- Du kan ställa in den fyllnadsnivå vid vilken avlastaren ska anses vara full. Detta  
-är att slippa vänta på att en skördetröska ska ringa med nästan full släp.  
-- Du kan använda förskjutningarna i HUD för att justera läget för avlastaren under skördarens rör.  
-  
+Courseplays avlastarläge fungerar med skördetröskor, skördare, hackare och bogserade skördare som körs av Courseplay. Du kan antingen använda en vanlig släpvagn eller en skruvvagn för att lossa en skördetröska. För att tömma släpvagnar kan du använda Giants Helper eller AutoDrive. För att starta avlastaren krävs några saker: - Du måste ha en enda släpvagn eller skruvvagn kopplad. Flera släpvagnar stöds inte. - Använd Target-ikonen på HUD för att välja det fält som ska skördas. Avlastaren kommer att lossa alla Courseplay-drivna skördare som arbetar på det fältet. - Du måste befinna dig på fältet eller inom 20 meter från fältet för att starta avlastaren.  Avlastare har endast ett fåtal inställningar som du kan justera: - Du kan ställa in den fyllnadsnivå vid vilken avlastaren anser sig vara full. Detta för att undvika att vänta på att en skördetröska ska ringa med en nästan full släpvagn. - Du kan använda offseten i HUD för att justera avlastarens position under skördarens rör.
 
+## Använda släpvagnar
 
-## Använder släp
+Om du använder en trailer för att lossa finns det två sätt att transportera din skörd till en silo eller till en försäljningsplats: Giants helper eller AutoDrive. Du kan antingen använda AI-menyn och skapa ett jobb, sedan genom att aktivera Giants helper-funktionen och lossningsmålet längst ner på listan, eller genom att aktivera hjulikonen på HUD. I det senare fallet måste du välja lossningsstation efter att hjulikonen blir blå.  Att tömma en släpvagn med AutoDrive fungerar på samma sätt som att använda en lastvagn, kolla in AutoDrive Tutorials på Internet.
 
-  
-Om du använder en trailer för att lossa, finns det två sätt att transportera din skörd till en silo eller till ett försäljningsställe: Giants helper  
-eller AutoDrive.  
-Du kan antingen använda AI-menyn och skapa ett jobb, sedan genom att aktivera Giants-hjälpfunktionen och lasta av målet vid  
-längst ner i listan, eller genom att aktivera hjulikonen på HUD.  
-I det senare fallet måste du välja avlastningsstationen efter att hjulikonen blir blå.  
-  
-Att tömma en trailer med AutoDrive fungerar på samma sätt som att använda en lastvagn, kolla in AutoDrive-handledningarna på Internet.  
+## Användning av skruvvagnar
 
+Skruvvagnar är mycket enkla att använda. Precis som med släpvagnar använder du målsymbolen för att välja det fält där du vill lossa en skördetröska eller skördare. För att starta avlastaren placerar du den igen på fältet eller inom 20 meter från fältet. Om skruvvagnen är full letar den automatiskt efter en släpvagn på eller nära fältet för att lasta över till den. Om släpet är fullt och skruvvagnen fortfarande inte är tom letar den efter ett annat släp att lossa på. Om inget släp finns tillgängligt fortsätter den att lossa skördetröskan.
 
-## Använda Fältvagn
+## Lasta av på fältet
 
-  
-Fältvagnar är mycket enkla att använda.  
-Precis som med släp, använder du målikonen för att välja fältet där du vill lossa en skördetröska eller skördare.  
-För att starta avlastaren, placera den igen på fältet eller inom 20 meter från fältet.  
-Om skruvvagnen är full, letar den automatiskt efter en släpvagn på eller nära fältet för att överlasta den.  
-Om trailern är full och skruvvagnen fortfarande inte är tom, kommer den att leta efter en annan trailer att lossa till.  
-Finns ingen släpvagn tillgänglig fortsätter den att lasta av skördetröskan.  
-
-
-## avlastning på fältet
-
-  
-Avlastningspositionen kan väljas med avlastningsmarkören.  
-Positionen måste vara på samma fält eller nära fältkanten.  
-Om markören pekar på en redan befintlig hög,  
-sedan används denna hög för att lossa till.  
-Markörens riktning används för avlastningsriktningen.  
-Dessutom måste en tippsida väljas för släpvagnar.  
-
+Avlastningspositionen kan väljas med avlastningsmarkeringen. Avlastning på fältet måste vara aktiverad. Positionen måste ligga på samma fält eller nära fältkanten. Om markören pekar på en redan befintlig hög används denna hög för att lossa till. Markörens riktning används för lossningsriktningen. På vissa släpvagnar kan tippsidan bytas mellan bak- och spannmålsluckan.
 

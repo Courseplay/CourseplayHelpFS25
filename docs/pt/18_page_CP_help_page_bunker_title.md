@@ -1,19 +1,19 @@
-# Bunker silo worker
+# Trabalhador do silo de trincheira
 
   
-Courseplay is able to compact or distribute chaff in a bunker silo or push chaff in a wedge silo.  
-Compacting is possible without any special tool, with a roller, weight or just the vehicle.  
-For distribution, there are special tools. (e.g. der Fliegel DUO).  
-For wedge silos, a shield is used to push the chaff to the back of the silo.  
+O Courseplay consegue compactar ou distribuir silagem num silo de trincheira ou empurrar silagem num silo em rampa.  
+Compactar é possível sem nenhuma alfaia especial, com um rolo, um peso ou apenas o veículo.  
+Para a distribuição existem alfaias especiais (por exemplo, o Fliegl DUO).  
+Para silos em rampa, é usada uma lâmina para empurrar a silagem para o fundo do silo.  
 
 
   
-If the vehicle has a distributor or shield attached, the Silo mode is preselected. With only a weight or a roller attached  
-you toggle through the starting point until the mode appears.  
-Beside the working width, you can also select the direction the driver should drive into the silo. With a shield attached,  
-the direction is selected automatically.  
-Use the target icon on the HUD to select the silo on the AI Map. If will be shown with blue lines and lights up white if it is selected.  
-The parking position is set with the marker "parking position" wich can also be used to drive there with the Giants helper  
-before starting the actual work.  
+Se o veículo tiver um distribuidor ou uma lâmina atrelada, o modo Silo é pré-selecionado. Apenas com um peso ou um rolo atrelado,  
+alternas o ponto de partida até o modo aparecer.  
+Além da largura de trabalho, também podes selecionar a direcção em que o condutor deve entrar no silo. Com uma lâmina atrelada,  
+a direcção é selecionada automaticamente.  
+Usa o ícone de alvo no HUD para selecionar o silo no mapa de IA. O silo é mostrado com linhas azuis e fica branco quando é selecionado.  
+A posição de estacionamento é definida com o marcador "posição de estacionamento", que também pode ser usado para conduzir até lá com o trabalhador da Giants  
+antes de começar o serviço.  
 
 

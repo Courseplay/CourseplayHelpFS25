@@ -1,47 +1,47 @@
-# Course generator center
+# Gerador de rotas: centro
 
   
-For the center of the field, different strategies are available to do the work. Mostly the selected tool is a reason to choose a specific strategie over the other. The available strategies where created based on feedback and informations from our community.  
-The simple up down strategie works almost every time for any tool. But it can be better to choose another, for example when harvesting with a combine, lands is a better way to keep the pipe outside of the fruit for a more efficient unloading.  
-For Chopping, racetrack can be a better solution for less narrow turns to make the work for the unloader easier.  
-Spirale is a better solution for towed harvester with an offset, to keep the tool in the fruit and the tractor outside.  
+Para o centro do campo, estão disponíveis diferentes estratégias para fazer o serviço. Na maioria das vezes, a alfaia selecionada é a razão para escolher uma estratégia específica em vez de outra. As estratégias disponíveis foram criadas com base no feedback e nas informações da nossa comunidade.  
+A estratégia simples de ida e volta funciona quase sempre para qualquer alfaia. Mas pode ser melhor escolher outra; por exemplo, ao colher com uma ceifeira, os blocos são uma melhor forma de manter o tubo fora da cultura para uma descarga mais eficiente.  
+Para picar, o modo circular pode ser uma melhor solução, com voltas menos apertadas, para facilitar o serviço do descarregador.  
+A espiral é uma melhor solução para colhedoras rebocadas com um ajuste lateral, para manter a alfaia na cultura e o tractor fora dela.  
 
 
   
-- Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down.  
-Spiral, Racetrack and Lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them.  
-- Center direction: Works the same as the headland, but can now be set independantly.  
-- Even row width: If the center of a field have a total width, that can't be evenly split over the work width of the tool, the 1st or last line will have a narrow rest work. To prevent this the width of each row gets reduced to have a even split over all lines.  
-- Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually.  
-- Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.  
+- Centro do campo: Há diferentes modos para o padrão do centro do campo. O clássico e mais usado é o de ida e volta.  
+Espiral, circular e blocos têm as suas vantagens específicas sobre os outros. Os blocos, por exemplo, mantêm o tubo da ceifeira fora da cultura na maior parte do tempo, para descarregar mais facilmente.  
+- Direcção no centro: Funciona da mesma forma que na cabeceira, mas agora pode ser definida de forma independente.  
+- Faixas uniformes: Se o centro dum campo tiver uma largura total que não pode ser dividida uniformemente pela largura de trabalho da alfaia, a primeira ou a última faixa fica com um resto estreito. Para evitar isto, a largura de cada faixa é reduzida para obter uma divisão uniforme entre todas as faixas.  
+- Direcção das faixas: o automático encontra geralmente a melhor direcção, mas às vezes o lado mais comprido encaixa melhor. Se não ficares satisfeito com nenhum dos dois, escolhe manual e define a direcção manualmente.  
+- Ângulo das faixas: Quando a direcção das faixas está definida como manual, esta configuração aparece e diz ao gerador a direcção das faixas.  
   
-These settings appear only for specific settings you have done before:  
-- Rows to skip: Appears when field center is set to "up/down". This is a very helpful option to accelerate your work, as tools won't have to back up to turn into the next row.  
-- Rows per Land: Appears when field center is set to "lands". This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated.  
-- Spiral from inside: Appears when field center is set to "spiral".  
-- Number of circles: Appears when field center is set to "racetrack".  
+Estas configurações só aparecem para escolhas específicas feitas antes:  
+- Saltar faixas: Aparece quando o centro do campo está definido como "ida e volta". É uma opção muito útil para acelerar o serviço, pois as alfaias não precisam de fazer marcha atrás para virar para a faixa seguinte.  
+- Faixas por bloco: Aparece quando o centro do campo está definido como "blocos". Só tem impacto nesse modo e diz ao gerador quantas faixas cada bloco deve ter. Quantas mais faixas, menos blocos são gerados.  
+- Espiral de dentro para fora: Aparece quando o centro do campo está definido como "espiral".  
+- Número de círculos: Aparece quando o centro do campo está definido como "circular".  
 
 
 ## 
-up/down
+ida e volta
 
 
 ![Image](../assets/images/updown_0_0_1024_591.png)
 
 ## 
-lands
+blocos
 
 
 ![Image](../assets/images/lands_0_0_1024_599.png)
 
 ## 
-spiral
+espiral
 
 
 ![Image](../assets/images/spiral_0_0_1024_590.png)
 
 ## 
-racetrack
+circular
 
 
 ![Image](../assets/images/racetrack_0_0_1024_589.png)

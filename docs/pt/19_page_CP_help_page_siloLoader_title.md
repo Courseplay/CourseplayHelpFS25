@@ -1,14 +1,14 @@
-# Silo loading
+# Carregamento do silo
 
   
-With this job it's possible to load from heaps on or near the field.  
-Additionally it's possible to load from a bunker silo.  
-The loader can be unloaded with an Courseplay unloader.  
+Com este trabalho é possível carregar de montes no campo ou perto dele.  
+Adicionalmente, é possível carregar dum silo de trincheira.  
+O carregador pode ser descarregado com um descarregador do Courseplay.  
 
 
   
-To start the loading-marker on the AI menu needs to be set.  
-The marker detects heaps or silos and highlights them on the map.  
-Now it's possible to start the helper.  
+Para começar, é preciso definir o marcador de carregamento no menu de IA.  
+O marcador detecta montes ou silos e destaca-os no mapa.  
+Agora é possível iniciar o trabalhador.  
 
 

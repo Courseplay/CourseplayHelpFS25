@@ -1,19 +1,6 @@
-# Plansiloarbetare
+# Bunker silo arbetare
 
-  
-Courseplay kan komprimera eller fördela silage i en plansilo eller trycka silage i en U-silo.  
-Komprimering är möjlig utan specialverktyg, med vält, vikt eller bara fordonet.  
-För distribution finns specialverktyg. (t.ex. der Fliegel DUO).  
-För U-silos används en raka för att trycka silage till baksidan av silon.  
+Courseplay kan komprimera eller fördela agnar i en bunkersilo eller trycka in agnar i en kilsilo. Komprimering är möjlig utan något specialverktyg, med en vals, vikt eller bara fordonet. För distribution finns specialverktyg (t.ex. Fliegl DUO). För kilsilor används en sköld för att trycka in agnarna längst bak i silon.
 
-
-  
-Om fordonet har en fördelare eller skärm monterad, är Silo-läget förvalt. Med endast en vikt eller en rulle fäst  
-du bläddrar genom startpunkten tills läget visas.  
-Förutom arbetsbredden kan du även välja i vilken riktning föraren ska köra in i silon. Med en sköld fäst,  
-riktningen väljs automatiskt.  
-Använd målikonen på HUD för att välja silon på AI-kartan. If visas med blå linjer och lyser vitt om det är valt.  
-Parkeringspositionen ställs in med markören "parkeringsposition" som också kan användas för att köra dit med Giants-hjälparen  
-innan det egentliga arbetet påbörjas.  
-
+Om fordonet har en fördelare eller en sköld monterad är Silo-läget förvalt. Med endast en vikt eller en vals monterad växlar du genom startpunkten tills läget visas. Förutom arbetsbredden kan du också välja i vilken riktning föraren ska köra in i silon. Om en sköld är monterad väljs riktningen automatiskt. Använd målsymbolen på HUD för att välja silon på AI-kartan. Den visas med blå linjer och lyser vitt om den är markerad. Parkeringspositionen anges med markören "parkeringsposition" som också kan användas för att köra dit med Giants-hjälparen innan det faktiska arbetet påbörjas.
 

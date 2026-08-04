@@ -1,16 +1,16 @@
-# Course generator expert
+# Gerador de rotas: modo avançado
 
   
-Some settings are only visible, if you set the expert mode to active on the global courseplay settings.  
-Before you play arround with those settings, you should make sure you know what the basic settings do.  
-Some expert settings only work properly under some conditions.  
+Algumas configurações só estão visíveis se activares o modo avançado nas configurações globais do Courseplay.  
+Antes de mexeres nessas configurações, deves certificar-te de que sabes o que as configurações básicas fazem.  
+Algumas configurações avançadas só funcionam correctamente em certas condições.  
   
-- Multiple Tools: This setting is used when you want more then just one vehicle to work on your course. As this gets a bit more complicated, there is a separate help topic for it.  
-- Field margin: This setting lets you move the field border in- or outwards of the original border.  
-- Narrow field: Creates the headland only at two short edges of the field. In that case, it is not possible to keep your vehicle on the field on the longest edges at the headland.  
-- Headland overlap: There is a default value that will always be used. This value can be changed with this setting. The overlap will be withing the field and won't overlap the field border.  
-- Use base line edge: A completly new feature, what only works on specific fields. If you have a field with a long radial border and place the field marker near it, the center line will follow that border.  
-IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this!  
+- Diversas alfaias: Esta configuração é usada quando queres mais do que um veículo a trabalhar na tua rota. Como isto é um pouco mais complicado, há um tópico de ajuda separado para isso.  
+- Margem do campo: Esta configuração permite mover o limite do campo para dentro ou para fora do limite original.  
+- Campo estreito: Cria a cabeceira apenas nos dois lados curtos do campo. Nesse caso, não é possível manter o veículo dentro do campo nos lados mais compridos na cabeceira.  
+- Sobreposição nas cabeceiras: Há um valor por defeito que é sempre usado. Esse valor pode ser alterado com esta configuração. A sobreposição fica dentro do campo e não ultrapassa o limite do campo.  
+- Limite do campo para a forma das linhas: Uma funcionalidade completamente nova, que só funciona em campos específicos. Se tiveres um campo com um limite curvo comprido e colocares o marcador de campo perto dele, a linha central segue esse limite.  
+NOTA IMPORTANTE: Se a rota gerada não for perfeita ou até for má, o lado selecionado ou o campo não funcionam com esta funcionalidade. Também não haverá actualização para isto!  
 
 
 ![Image](../assets/images/baseedge_0_0_1020_545.png)

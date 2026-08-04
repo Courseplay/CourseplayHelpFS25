@@ -1,29 +1,29 @@
-# Course editor
+# Editor de rota
 
   
-The course editor can be used to edit courses and custom fields.  
-The loaded courses will be saved/overritten automatically, when the editor is closed.  
+O editor de rota pode ser usado para editar rotas e campos personalizados.  
+As rotas carregadas são guardadas/substituídas automaticamente quando o editor é fechado.  
   
-1) Editing a custom field can be done with a selected field on the ai menu page.  
-2) Editing a course can be done in the course manager.    
-      There you can edit a saved course, but be sure you cleared the currently loaded course from the vehicle.  
+1) Editar um campo personalizado pode ser feito com um campo selecionado na página do menu de IA.  
+2) Editar uma rota pode ser feito no gestor de rotas.  
+      Aí podes editar uma rota guardada, mas certifica-te de que limpaste a rota carregada do veículo.  
   
-Editing of course should only be done, when the course generator can't produce a good enough course.  
-Incorrect editing might couse problems for the cp driver, as the waypoints have hidden attributes.  
-
-
-  
-Under the basic category are:  
-1) The move brush moves a hovered waypoint to the brush position.  
-2) The insert brush can insert waypoints ahead or behind of a selected waypoint.  
-  
-Deleting of waypoints can be done with the red delete button.  
+A edição de rotas só deve ser feita quando o gerador de rotas não consegue produzir uma rota suficientemente boa.  
+Uma edição incorrecta pode causar problemas ao condutor do CP, pois os pontos têm atributos escondidos.  
 
 
   
-Under the advanced category are:  
-1) A brush to move multiple waypoints in between to selected waypoints.  
-2) A brush to insert a curve of waypoints between to selected waypoints.  
-3) A brush to set the turn attribute of a waypoint(only with a course and not a custom field).  
+Na categoria geral estão:  
+1) O pincel de mover move o ponto sob o cursor para a posição do pincel.  
+2) O pincel de inserir pode inserir pontos antes ou depois dum ponto selecionado.  
+  
+Apagar pontos pode ser feito com o botão vermelho de apagar.  
+
+
+  
+Na categoria avançada estão:  
+1) Um pincel para mover vários pontos entre dois pontos selecionados.  
+2) Um pincel para inserir uma curva de pontos entre dois pontos selecionados.  
+3) Um pincel para definir o atributo de viragem dum ponto (apenas com uma rota e não com um campo personalizado).  
 
 

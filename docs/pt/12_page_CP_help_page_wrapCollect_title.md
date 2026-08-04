@@ -4,7 +4,7 @@
 O embrulho e a coleta dos fardos podem ser feitos de duas maneiras diferentes.  
 A primeira é carregar o mesmo curso que você usou para sua enfardadeira e deixar o empacotador ou coletor executar esse curso.  
 No entanto, isso pode ser complicado, pois alguns fardos adoram rolar ou voar para fora do caminho.  
-Neste ponto, nosso tipo de trabalho wrap and collect pode ajudar, pois não precisa de um curso.  
+Neste ponto, nosso tipo de trabalho de enrolar e coletar pode ajudar, pois não precisa de um curso.  
 Fique no campo e apenas inicie o motorista a partir do HUD com fardos de embrulhar/coletar ou use o Mapa de IA para enviá-lo a um campo para iniciar o trabalho.  
 
 

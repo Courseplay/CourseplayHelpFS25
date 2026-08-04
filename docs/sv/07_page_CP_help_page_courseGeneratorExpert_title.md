@@ -1,17 +1,6 @@
-# Course generator expert
+# Kursgenerator: expertinställningar
 
-  
-Some settings are only visible, if you set the expert mode to active on the global courseplay settings.  
-Before you play arround with those settings, you should make sure you know what the basic settings do.  
-Some expert settings only work properly under some conditions.  
-  
-- Multiple Tools: This setting is used when you want more then just one vehicle to work on your course. As this gets a bit more complicated, there is a separate help topic for it.  
-- Field margin: This setting lets you move the field border in- or outwards of the original border.  
-- Narrow field: Creates the headland only at two short edges of the field. In that case, it is not possible to keep your vehicle on the field on the longest edges at the headland.  
-- Headland overlap: There is a default value that will always be used. This value can be changed with this setting. The overlap will be withing the field and won't overlap the field border.  
-- Use base line edge: A completly new feature, what only works on specific fields. If you have a field with a long radial border and place the field marker near it, the center line will follow that border.  
-IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this!  
-
+Vissa inställningar är bara synliga om du ställer in expertläget till aktivt i de globala Courseplay-inställningarna. Innan du leker med dessa inställningar bör du se till att du vet vad grundinställningarna gör. Vissa expertinställningar fungerar bara korrekt under vissa förhållanden.  - Flera verktyg: Den här inställningen används när du vill att mer än ett fordon ska arbeta på din bana. Eftersom detta blir lite mer komplicerat finns det ett separat hjälpämne för det. - Växla körfält: När det här alternativet är aktivt byter fordonen fil vid varje sväng, så att varje fordons sväng blir lika bred. Se den extra hjälpmenyn "Byta körfält" för mer information. - Fältmarginal: Med denna inställning kan du flytta fältets kant inåt eller utåt från den ursprungliga kanten. - Smalt fält: Skapar vändtegen endast vid fältets två korta kanter. I detta fall är det inte möjligt att hålla fordonet på fältet på de längsta kanterna vid vändtegen. - Överlappning på vändtegen: Som standard överlappar vändtegspassagerna varandra (men aldrig fältkanten) med några procent för att undvika att missa frukt i vissa kantfall. Du kan ändra denna överlappning här. - Använd baslinjekant: Med den här inställningen kan du generera böjda rader uppåt/nedåt som löper parallellt med fältkanten nära fältmarkören. Detta är logiskt när fältkanten inte är rak, eftersom raderna uppåt/nedåt följer kantkurvan. VIKTIGT: Det här är en experimentell inställning som kanske inte fungerar för alla fältformer. Om det inte fungerar, prova en annan inställning.
 
 ![Image](../assets/images/baseedge_0_0_1020_545.png)
 

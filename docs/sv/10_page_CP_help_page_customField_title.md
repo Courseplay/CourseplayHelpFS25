@@ -1,27 +1,12 @@
 # Anpassade fält
 
-  
-Det finns två sätt att skapa ett anpassat fält.  
-Den första är att använda HUD: s rekordfunktion.  
-Starta posten och spela in din fältgräns.  
-När du är klar trycker du på knappen igen och du kommer att bli ombedd om du vill spara den.
+Det finns två sätt att skapa anpassade fält. Det första är att använda HUD:s registreringsfunktion. Tryck först på knappen för banregistrering och kör sedan fältgränsen som du vill registrera. När du är klar trycker du bara på knappen igen så får du frågan om du vill spara den. Start och slut får inte överlappa varandra!
 
 ![Image](../assets/images/recordcustomhelp_0_0_765_510.png)
 
-  
-Med en titt på AI-menyn kommer du att se din inspelade fältgräns.  
-Genom att klicka på namnet får du möjlighet att antingen radera det eller byt namn på det.
+De anpassade fältgränserna kommer att visas i AI-menyn. Genom att klicka på namnet får du möjlighet att antingen ta bort, byta namn på eller redigera det med redigeraren.
 
-  
-The second option is to draw the custom field on the map of the CP AI menu.  
-To start the drawing, hit they button on the bottom left corner or hit corresponding key.  
-After that a text appears on the top of your screen.  
-Start by clicking the right mouse button for setting the start position.  
-By holding the shift key, the line will be set straight in 90° angles.  
-The next clicks will create lines to the previous click.  
-Once you draw a second line, the course will be automatically closed. You can still draw more lines to define the field even further.  
-You don't need to draw the last line to the start, as it gets generated automatically straight to the start.  
-
+Det andra alternativet är att rita det anpassade fältet på kartan i CP AI-menyn. För att starta ritningen klickar du på knappen i det nedre vänstra hörnet eller trycker på motsvarande tangent. Därefter visas en text överst på skärmen. Börja med att klicka på höger musknapp för att ställa in startpositionen. Genom att hålla in shift-tangenten kommer linjen att läggas rakt i 90°-vinklar. Nästa klick skapar linjer till det föregående klicket. När du har ritat en andra linje stängs banan automatiskt. Du kan fortfarande dra fler linjer för att definiera fältet ännu mer. Du behöver inte dra den sista linjen till starten, eftersom den genereras automatiskt rakt till starten.
 
 ![Image](../assets/images/customfield_0_0_765_510.png)
 

@@ -153,6 +153,7 @@ venv.bak/
 
 # mkdocs documentation
 /site
+/game_repo/
 
 # mypy
 .mypy_cache/

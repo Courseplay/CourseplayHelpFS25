@@ -1,72 +1,72 @@
 # Mini HUD
 
-## General
+## Geral
 
 ![Image](../assets/images/minihudhelp_general_0_0_478_305.png)
 
   
-A: Hold the left mouse button on the headline to drag the HUD to a position you like. On the right side, the installed version is shown and the X will close the HUD with a mouse click.  
-B: Click on the Courseplay icon to access the global settings.  
-C: At this position the name of your vehicle is displayed. Clicking on it will get you to the vehicle settings menu.  
-D: These symbols are to: (1) delete the currently loaded course, (2a) toggle how the course will be displayed, (2b) if no course is loaded, a record button is shown to record a field border course, (3) to start or stop the helper.  
-E: This target icon has different options depending on the selected mode, it opens the AI Menu with the job and be able to place marker and additional settings for the job. On the left side of the icon, with a fieldwork running, the remaining time of the course is shown.  
-F: Click on the text to toggle the available modes for your current tools.  
-G: The settings shown under this line depend on the current job. These will be explained with the following pictures.  
+A: Mantém o botão esquerdo do rato premido no cabeçalho para arrastar o HUD para a posição que quiseres. No lado direito é mostrada a versão instalada e o X fecha o HUD com um clique do rato.  
+B: Clica no ícone do Courseplay para aceder às configurações globais.  
+C: Nesta posição é mostrado o nome do teu veículo. Ao clicar nele, abres o menu de configurações do veículo.  
+D: Estes símbolos servem para: (1) apagar a rota carregada, (2a) alternar como a rota é mostrada, (2b) se não houver rota carregada, é mostrado um botão de gravação para gravar uma rota do limite do campo, (3) iniciar ou parar o trabalhador.  
+E: Este ícone de alvo tem opções diferentes conforme o modo selecionado; abre o menu de IA com o trabalho e permite colocar marcadores e configurações adicionais para o trabalho. No lado esquerdo do ícone, com um trabalho no campo a decorrer, é mostrado o tempo restante da rota.  
+F: Clica no texto para alternar entre os modos disponíveis para as alfaias actuais.  
+G: As configurações mostradas por baixo desta linha dependem do trabalho actual. Estas são explicadas nas imagens seguintes.  
 
 
-## Fieldwork
+## Trabalho no campo
 
 ![Image](../assets/images/minihudhelp_fieldwork_0_0_478_305.png)
 
   
-A: Click to select where to the start the work. If a multitool course is loaded, on the right side you can select the lane.  
-B: Displays the name of the loaded course. If you just generated a course, it shows 'temporary course'. On the right side you'll see the current/total waypoints once the job is started.  
-C: Clicking on the text will recalculate the working width, or you can set it manually on the right by clicking +/-, or with the mouse wheel over the number.  
-D: Some tools need an offset to the side. Courseplay will calculate it automatically when clicking on the text, or you can change it manually just like the working width.  
-E: Use the symbol on the right side to copy the current course to the clipboard. The name of the copied course is then shown on the left. You can load the copied course into another vehicle which has no course yet. To remove the course from the clipboard, click on the remove symbol.  
+A: Clica para selecionar onde começar o serviço. Se uma rota de diversas alfaias estiver carregada, no lado direito podes selecionar a faixa.  
+B: Mostra o nome da rota carregada. Se acabaste de gerar uma rota, mostra 'rota temporária'. No lado direito vês os pontos actuais/totais assim que o trabalho é iniciado.  
+C: Ao clicar no texto, a largura de trabalho é recalculada, ou podes defini-la manualmente à direita clicando em +/-, ou com a roda do rato sobre o número.  
+D: Algumas alfaias precisam dum ajuste lateral. O Courseplay calcula-o automaticamente ao clicar no texto, ou podes alterá-lo manualmente tal como a largura de trabalho.  
+E: Usa o símbolo no lado direito para copiar a rota actual para a área de transferência. O nome da rota copiada é então mostrado à esquerda. Podes carregar a rota copiada noutro veículo que ainda não tenha rota. Para remover a rota da área de transferência, clica no símbolo de remover.  
 
 
-## Combine unloader
+## Descarregador da ceifeira
 
 ![Image](../assets/images/minihudhelp_combineunload_0_0_478_305.png)
 
   
-A: Select what type of vehicle should the worker unload. This is useful if you have different types, like a combine and a loader such as the ROPA Maus working on the same field.  
-B: Set the fill level (40% - 100%) the worker should drive to the unload site. Click the +/- or use the scroll wheel over the number to change.  
-C: Sometimes the position of the unloader under the pipe is less than perfect. This may be due to the trailer or the pipe of the harvester, sometimes caused by the slope of the field. You can manually correct the distance to the harvester here.  
-D: Same as above, but here you can adjust the position of the unloader relative to the pipe to the front or to the rear.  
-E: Similar to copying a course, here you can copy the marker positions to another vehicle.  
+A: Seleciona que tipo de veículo o trabalhador deve descarregar. Isto é útil se tiveres tipos diferentes, como uma ceifeira e um carregador como o ROPA Maus a trabalhar no mesmo campo.  
+B: Define o nível de carga (40% - 100%) com que o trabalhador deve ir para o local de descarga. Clica em +/- ou usa a roda do rato sobre o número para alterar.  
+C: Às vezes a posição do descarregador debaixo do tubo não é perfeita. Isto pode dever-se ao reboque ou ao tubo da ceifeira, por vezes causado pela inclinação do campo. Aqui podes corrigir manualmente a distância à ceifeira.  
+D: Igual ao anterior, mas aqui podes ajustar a posição do descarregador em relação ao tubo, para a frente ou para trás.  
+E: Semelhante a copiar uma rota, aqui podes copiar as posições dos marcadores para outro veículo.  
 
 
-## Bale collect/wrap
+## Recolher/enrolar fardos
 
 ![Image](../assets/images/minihudhelp_balecollect_0_0_478_305.png)
 
   
-A: Remaining bales on the field.  
-B: Type of the bales to collect/wrap.  
-C: Offset between the tractor's centerline and the loader arm's centerline. You may need to adjust this for bigger tractors (e.g. with wider tires).  
+A: Fardos que faltam no campo.  
+B: Tipo dos fardos a recolher/enrolar.  
+C: Ajuste entre a linha central do tractor e a linha central do braço carregador. Pode ser preciso ajustar isto em tractores maiores (por exemplo, com pneus mais largos).  
 
 
-## Silo loader
+## Carregador do silo
 
 ![Image](../assets/images/minihudhelp_siloloader_0_0_478_305.png)
 
   
-A: Remaining size of the heap in liters.  
-B: Working width, same as with fieldwork job.  
-C: Courseplay needs the exact height of the bucket above ground set correctly. Since this height can be different for each tool, you can check and adjust it with this setting.  
-D: Just like with the unloader, you can copy the marker positions to another vehicle.  
+A: Tamanho restante do monte em litros.  
+B: Largura de trabalho, igual à do trabalho no campo.  
+C: O Courseplay precisa que a altura exacta da pá acima do solo esteja bem definida. Como esta altura pode ser diferente para cada alfaia, podes verificar e ajustá-la com esta configuração.  
+D: Tal como com o descarregador, podes copiar as posições dos marcadores para outro veículo.  
 
 
-## Silo worker
+## Trabalhador do silo
 
 ![Image](../assets/images/minihudhelp_siloworker_0_0_478_305.png)
 
   
-A: Similar to the silo loader, the height of the leveler is critical. You can adjust it here.  
-B: Shows the progress of the compacting. Clicking on it, toggles the option to stop the driver when reached full compacting.  
-C: You can change the working width when needed here.  
-D: This setting tells the worker to wait in the silo or at a selected parking position when an unloader approaches the silo.  
+A: Tal como no carregador do silo, a altura da lâmina é crítica. Podes ajustá-la aqui.  
+B: Mostra o progresso da compactação. Ao clicar, alterna a opção de parar o condutor quando a compactação total é atingida.  
+C: Aqui podes alterar a largura de trabalho quando necessário.  
+D: Esta configuração diz ao trabalhador para esperar no silo ou numa posição de estacionamento selecionada quando um descarregador se aproxima do silo.  
 
 

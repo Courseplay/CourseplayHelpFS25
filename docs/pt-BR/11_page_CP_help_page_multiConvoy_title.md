@@ -1,15 +1,17 @@
 # Multi implementos e Comboio
 
   
-É possível ter até 5 veículos trabalhando juntos no mesmo campo em um comboio (também chamado de rota multi implementos).  
+É possível ter até 5 veículos trabalhando juntos no mesmo campo em um grupo (também chamado de percurso multiferramentas).  
+Você pode alternar a posição (faixa) do veículo no grupo no HUD (esquerda-centro-direita).  
 
 
   
-Uma vez que uma rota multi implementos é carregado, você precisará selecionar a pista para o motorista.  
-Essas pistas são sempre nomeadas da mesma forma:  
+Após o carregamento de um percurso com várias ferramentas, você precisará selecionar a posição (faixa) para o motorista.  
+Essas faixas são sempre nomeadas da mesma forma:  
 esquerda(2), esquerda(1), centro, direita(1), direita(2).  
-2 veículos terão esquerda(1) e direita(1), 4 terão esquerda(2) e direita(2).  
-Com 3 ou 5 veículos você também ganhará a opção de centro.  
+2 veículos têm esquerda(1) e direita(1), e 4 têm esquerda(2) e direita(2).  
+Com 3 ou 5 veículos, também há uma opção central.  
+Selecionar uma faixa diferente também atualiza a exibição do percurso para mostrar o percurso real daquele veículo.  
 
 
   

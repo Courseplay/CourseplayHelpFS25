@@ -1,29 +1,8 @@
 # Kursredaktör
 
-  
-Kursredigeraren kan användas för att redigera kurser och anpassade fält.  
-De inlästa banorna sparas/skrivs över automatiskt när editorn stängs.  
-  
-1) Redigera ett anpassat fält kan göras med ett valt fält på ai-menysidan.  
-2) Redigera en kurs kan göras i kursansvarig.  
-    Där kan du redigera en sparad bana, men se till att du raderade den för närvarande laddade banan från fordonet.  
-  
-Redigering bör naturligtvis endast göras när kursgeneratorn inte kan producera en tillräckligt bra kurs.  
-Felaktig redigering kan orsaka problem för cp-föraren, eftersom waypoints har dolda attribut.  
+Kursredigeraren kan användas för att redigera kurser och anpassade fält. De inlästa kurserna sparas/skrivs över automatiskt när editorn stängs.  1) Du kan redigera ett anpassat fält genom att välja det på menysidan ai och klicka på edit custom field. 2) Du kan redigera en kurs i kurshanteraren genom att markera den och klicka på öppna kursredigeraren.     Detta fungerar endast med sparade kurser. Se till att ingen kurs är laddad i fordonet.  Redigering av kurser bör endast göras när kursgeneratorn inte kunde producera en tillräckligt bra kurs. Felaktig redigering kan orsaka problem för föraren, eftersom waypoints har dolda attribut.
 
+Under den grundläggande kategorin finns: 1) Flyttning av en gripen waypoint. 2) Infoga waypoints framför eller bakom den waypoint som du klickar på.  Radering av waypoints kan göras med den röda raderingsknappen.
 
-  
-Under den grundläggande kategorin finns:  
-1) Flytta borsten flyttar en svävad waypoint till borstens position.  
-2) Insättningsborsten kan infoga waypoints före eller bakom en vald waypoint.  
-  
-Radering av waypoints kan göras med den röda raderingsknappen.  
-
-
-  
-Under den avancerade kategorin finns:  
-1) En pensel för att flytta flera waypoints mellan till valda waypoints.  
-2) En pensel för att infoga en kurva av waypoints mellan till valda waypoints.  
-3) En pensel för att ställa in svängattributet för en waypoint (endast med en kurs och inte ett anpassat fält).  
-
+Under den avancerade kategorin finns: 1) En pensel för att ställa in svängattributet för en waypoint (endast med en bana och inte ett eget fält). Om du klickar flera gånger på waypointen växlar du mellan "normal" (orange), "svängstart" (grön) och "svängslut" (röd).  2) En pensel för att flytta flera waypoints mellan två valda waypoints. För att göra detta markerar du 2 waypoints med vänster musknapp, och genom att hålla vänster musknapp intryckt kan du sedan flytta alla waypoints däremellan, inklusive de markerade. För att avmarkera waypoints klickar du på höger musknapp.  3) En pensel för att infoga en kurva med waypoints mellan två markerade waypoints. Precis som när du flyttar fler waypoints, markera 2 waypoints, håll sedan vänster musknapp intryckt och flytta musen. Observera: Så snart du släpper musknappen kommer waypoints att ställas in, detta kan inte ångras! (Du kan naturligtvis ta bort dessa waypoints).
 

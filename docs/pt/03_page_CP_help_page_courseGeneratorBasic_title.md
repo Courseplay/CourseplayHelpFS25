@@ -1,4 +1,4 @@
-# Course generator basics
+# Fundamentos do gerador de rotas
 
   
 Cada curso de trabalho de campo é gerado pelo gerador de curso. Esta é uma ferramenta poderosa, que permite personalizar o curso gerado de acordo com suas necessidades.  

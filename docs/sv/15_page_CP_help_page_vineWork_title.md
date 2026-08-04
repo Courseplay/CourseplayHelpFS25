@@ -1,40 +1,20 @@
-# Vinodling
+# Arbete med vinstockar
 
-  
-Att arbeta med vinrankor är lite mer komplicerat och arbetar sedan på ett normalt fält.  
-För att ha det bästa resultatet ska vinrankorna alla vara bredvid varandra inom standardnätet.  
-Slutet och början på varje vinranka, bör också vara ungefär samma längd.  
-Om vinrankorna finns på ett befintligt fält kan du öppna generatorn direkt sätt som vanligt.  
-Om de inte är på ett fält måste du gå över AI-menyn och placera fältmarkören på vinrankorna.  
+Att arbeta med vinrankor är lite mer komplicerat än att arbeta på ett vanligt fält. För att få bästa resultat bör alla rankor ligga bredvid varandra inom standardrutnätet. Slutet och början på varje vinranka bör också vara ungefär lika långa. Om vinrankorna står på ett befintligt fält kan du öppna generatorn direkt som vanligt. Om de inte ligger på ett fält måste du gå över till AI-menyn och placera fältmarkören på rankorna.
 
-
-  
-Generatorn för vinrankor har mindre alternativ.  
-Beroende på verktyget måste du välja att arbeta med vinrankorna eller bredvid vinrankorna.  
-T.ex. Standardskördaren måste köra och arbeta på vinrankan.  
-      Förköraren måste köra åt vänster från vinrankorna men arbetar på vinrankan, så du måste välja att arbeta på vinrankan, men köra med en offset.  
-      Sprutor måste köra bredvid vinrankorna och behöver hoppa över en rad, eftersom den sprayer till vänster och höger.  
-
+Generatorn för vinrankor har färre alternativ. Beroende på verktyget måste du välja om du vill arbeta på eller bredvid vinrankorna. T.ex. måste standardskördaren köra och arbeta på vinrankan.      Förbeskäraren måste köra till vänster om vinrankorna men arbetar på vinrankan, så du måste välja att arbeta på vinrankan, men köra med en förskjutning.      Sprutor måste köra bredvid vinrankorna och måste hoppa över en rad, eftersom den sprutar till vänster och höger.
 
 ![Image](../assets/images/vineworkgen_0_0_765_510.png)
 
-  
-En vinrankskurs bör genereras på vinrankorna, eftersom det fick köra och arbeta med vinrankorna.  
-
+En vinstockskurs bör genereras på vinstockarna, eftersom den måste köra och arbeta på vinstockarna.
 
 ![Image](../assets/images/vineworkharvest_0_0_765_510.png)
 
-  
-Förutbredningen fungerar på vinrankorna, så kursen måste genereras på vinrankorna.  
-Verktygen kommer med en förskjutning för traktorn, så traktorn kör mellan vinrankorna.  
-
+Förbeskäraren arbetar på vinrankorna, så kursen måste skapas på vinrankorna. Verktyget levereras med en offset för traktorn, så traktorn kör mellan vinrankorna.
 
 ![Image](../assets/images/vineworkpruner_0_0_765_510.png)
 
-  
-Sprutan fungerar bredvid vinrankorna så att den måste köra antingen vänster eller höger från vinrankorna.  
-Eftersom sprutan kan fungera till vänster och höger vinstockar samtidigt kan vi hoppa över en rad.  
-
+Sprutan arbetar bredvid vinrankorna, så den måste köra antingen till vänster eller höger om vinrankorna. Eftersom sprutan kan arbeta på vänster och höger vinranka samtidigt kan vi hoppa över en rad.
 
 ![Image](../assets/images/vineworkspray_0_0_765_510.png)
 

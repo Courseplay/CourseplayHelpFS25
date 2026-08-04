@@ -26,7 +26,7 @@ D: Algumas ferramentas precisam de um deslocamento lateral. O Courseplay irá ca
 E: Use o símbolo do lado direito para copiar a rota atual para a área de transferência. O nome da rota copiado é mostrado à esquerda. Você pode carregar o percurso copiado em outro veículo que ainda não tenha percurso. Para remover a rota da área de transferência, clique no símbolo de remoção.  
 
 
-## Colheitadeira descarrega
+## Descarregador da colheitadeira
 
 ![Image](../assets/images/minihudhelp_combineunload_0_0_478_305.png)
 
@@ -45,7 +45,8 @@ E: Semelhante a copiar um percurso, aqui você pode copiar as posições dos mar
   
 A: Fardos restantes no campo.  
 B: Tipo de fardos a recolher/embalar.  
-C: Deslocamento entre a linha central do trator e a linha central do braço da carregadeira. Pode ser necessário ajustar isso para tratores maiores (por exemplo, com pneus mais largos).
+C: Deslocamento entre a linha central do trator e a linha central do braço da carregadeira. Pode ser necessário ajustar isso para tratores maiores (por exemplo, com pneus mais largos).  
+      
 
 ## Carregar silo
 
