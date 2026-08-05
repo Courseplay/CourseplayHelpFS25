@@ -1,4 +1,4 @@
-name: generate-markdown-files
+name: build-and-deploy
 
 on:
   push:
@@ -8,38 +8,46 @@ on:
     - cron: '0 3 * * 1' # Every Monday at 03:00 UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  generate-markdown:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the repository
+      # Step 1: Check out repository
       - name: Check out repository
         uses: actions/checkout@v4
 
-      # Step 2: Set up Python
+      # Step 2: Set up Python with pip caching
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+          cache: 'pip'
 
       # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install Pillow
+          pip install Pillow mkdocs-material mkdocs-static-i18n
 
-      # Step 4: Run the script
+      # Step 4: Run documentation generation script
       - name: Generate markdown files from game XMLs
         run: python generate_from_xml.py --update
 
-      # Step 5: Push changes back to the repository
+      # Step 5: Commit and push generated docs changes (if any)
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/
           git commit -m "Update generated markdown files" || echo "No changes to commit"
           git push origin master
+
+      # Step 6: Build and deploy to GitHub Pages
+      - name: Build and deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
