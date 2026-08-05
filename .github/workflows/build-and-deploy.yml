@@ -37,17 +37,27 @@ jobs:
       - name: Generate markdown files from game XMLs
         run: python generate_from_xml.py --update
 
-      # Step 5: Commit and push generated docs changes (if any)
+      # Step 5: Check for changes, commit and push if needed
       - name: Commit and push changes
+        id: commit_step
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/
-          git commit -m "Update generated markdown files" || echo "No changes to commit"
-          git push origin master
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Changes detected in docs/. Committing..."
+            git commit -m "Update generated markdown files"
+            git push origin master
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "No changes to commit."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
 
-      # Step 6: Build and deploy to GitHub Pages
+      # Step 6: Build and deploy to GitHub Pages (skip on cron schedule if nothing changed)
       - name: Build and deploy to GitHub Pages
+        if: |
+          github.event_name != 'schedule' || steps.commit_step.outputs.has_changes == 'true'
         run: mkdocs gh-deploy --force
