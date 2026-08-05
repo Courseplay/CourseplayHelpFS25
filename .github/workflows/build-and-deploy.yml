@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install Pillow mkdocs-material mkdocs-static-i18n
+          pip install -r requirements.txt
 
       # Step 4: Run documentation generation script
       - name: Generate markdown files from game XMLs
