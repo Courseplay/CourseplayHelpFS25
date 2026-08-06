@@ -8,10 +8,14 @@ guaranteeing update safety), and generates multilingual Markdown documentation f
 """
 
 import re
+import sys
 import shutil
 import subprocess
 import argparse
+import logging
 import xml.etree.ElementTree as ET
+
+logging.basicConfig(level=logging.INFO, format='%(message)s')
 from pathlib import Path
 from dataclasses import dataclass
 from typing import Optional
@@ -53,29 +57,33 @@ class HelpPage:
 def setup_game_repo(force_update: bool = False) -> None:
     """Clones or updates the Courseplay_FS25 repository using shallow sparse-checkout."""
     if not GAME_REPO_DIR.exists() or force_update:
-        print("Setting up shallow sparse-checkout of Courseplay FS25...")
+        logging.info("Setting up shallow sparse-checkout of Courseplay FS25...")
         if GAME_REPO_DIR.exists():
             shutil.rmtree(GAME_REPO_DIR)
         GAME_REPO_DIR.mkdir(parents=True, exist_ok=True)
         
         # Sequential execution without shell=True guarantees reliability on Windows, Linux and CI
-        subprocess.run(
-            ["git", "clone", "--filter=blob:none", "--no-checkout", "--depth", "1",
-             "https://github.com/Courseplay/Courseplay_FS25.git", str(GAME_REPO_DIR)],
-            check=True
-        )
-        subprocess.run(
-            ["git", "-C", str(GAME_REPO_DIR), "sparse-checkout", "set",
-             "config/HelpMenu.xml", "translations", "img"],
-            check=True
-        )
-        subprocess.run(
-            ["git", "-C", str(GAME_REPO_DIR), "checkout"],
-            check=True
-        )
-        print("Game repository cloned successfully.")
+        try:
+            subprocess.run(
+                ["git", "clone", "--filter=blob:none", "--no-checkout", "--depth", "1",
+                 "https://github.com/Courseplay/Courseplay_FS25.git", str(GAME_REPO_DIR)],
+                check=True
+            )
+            subprocess.run(
+                ["git", "-C", str(GAME_REPO_DIR), "sparse-checkout", "set",
+                 "config/HelpMenu.xml", "translations", "img"],
+                check=True
+            )
+            subprocess.run(
+                ["git", "-C", str(GAME_REPO_DIR), "checkout"],
+                check=True
+            )
+        except subprocess.CalledProcessError as e:
+            logging.error(f"Git operation failed: {e}")
+            sys.exit(1)
+        logging.info("Game repository cloned successfully.")
     else:
-        print("Using existing local game_repo directory. (Use --update to force refresh)")
+        logging.info("Using existing local game_repo directory. (Use --update to force refresh)")
 
 
 def escape_attribute_newlines(xml_string: str) -> str:
@@ -108,7 +116,7 @@ def load_translations() -> dict[str, dict[str, str]]:
             try:
                 root = ET.fromstring(content_filtered)
             except Exception as e:
-                print(f"Error parsing {file_path.name}: {e}")
+                logging.error(f"Error parsing {file_path.name}: {e}")
                 continue
             
             translations[lang_code] = {}
@@ -133,7 +141,7 @@ def process_image(
     uvs_str = image_elem.attrib.get("uvs", "")
     uvs = [int(val) for val in uvs_str.replace("px", "").split()]
     if len(uvs) != 4:
-        print(f"Warning: Invalid UV coordinates for {raw_filename}: {uvs_str}")
+        logging.warning(f"Warning: Invalid UV coordinates for {raw_filename}: {uvs_str}")
         return None
 
     base_name = Path(raw_filename).stem
@@ -155,9 +163,9 @@ def process_image(
                 cropped = img.crop(box)
                 cropped.save(dest_path)
             except Exception as e:
-                print(f"Failed to convert/crop image {source_path}: {e}")
+                logging.error(f"Failed to convert/crop image {source_path}: {e}")
         else:
-            print(f"Warning: Source image not found at {source_path}")
+            logging.warning(f"Warning: Source image not found at {source_path}")
 
     used_images.add(cropped_filename)
     return cropped_filename
@@ -254,10 +262,10 @@ def delete_unused_images(used_images: set[str]) -> None:
         for file_path in IMAGES_DIR.glob("*.png"):
             if file_path.name not in used_images:
                 try:
-                    file_path.unlink()
-                    print(f"Deleted unused image asset: {file_path.name}")
-                except Exception as e:
-                    print(f"Failed to delete {file_path.name}: {e}")
+                    file_path.unlink(missing_ok=True)
+                    logging.info(f"Deleted unused image asset: {file_path.name}")
+                except OSError as e:
+                    logging.error(f"Failed to delete {file_path.name}: {e}")
 
 
 def generate_docs(force_update: bool = False) -> None:
@@ -271,7 +279,7 @@ def generate_docs(force_update: bool = False) -> None:
     pages = load_help_menu_config(used_images)
     translations = load_translations()
 
-    print(f"Loaded {len(pages)} help pages and {len(translations)} languages.")
+    logging.info(f"Loaded {len(pages)} help pages and {len(translations)} languages.")
 
     for lang_code, trans_dict in translations.items():
         lang_output_dir = OUTPUT_DIR / lang_code
@@ -282,7 +290,7 @@ def generate_docs(force_update: bool = False) -> None:
             create_markdown_file(lang_code, page, trans_dict, lang_output_dir, index, is_index=is_index)
 
     delete_unused_images(used_images)
-    print("Documentation generated successfully!")
+    logging.info("Documentation generated successfully!")
 
 
 # Alias for backward compatibility if imported externally
